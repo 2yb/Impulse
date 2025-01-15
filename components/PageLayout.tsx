@@ -99,7 +99,7 @@ const PageLayout = () => {
       {/* Left Section - Login */}
       <Box
         sx={{
-          width: "50%",
+          width: "30%",
           height: "100vh",
           borderRight: "1px solid",
           borderColor: "divider",
@@ -109,7 +109,7 @@ const PageLayout = () => {
       </Box>
 
       {/* Right Section - Tabs */}
-      <Box sx={{ width: "50%", p: 3 }}>
+      <Box sx={{ width: "70%", p: 3 }}>
         <Card sx={{ height: "100%" }}>
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
             <Tabs
